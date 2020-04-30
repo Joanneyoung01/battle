@@ -12,3 +12,4 @@ describe Player do
     expect { subject.hit_points -= 10 }.to change { subject.hit_points }.by(-10)
   end
 end
+
